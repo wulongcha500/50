@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+    int result = 0;
+
+    // Input the two natural numbers
+    printf("Enter the first natural number: ");
+    scanf("%d", &num1);
+
+    printf("Enter the second natural number: ");
+    scanf("%d", &num2);
+
+    // Perform multiplication
+    for (int i = 0; i < num2; i++) {
+        result += num1;
+    }
+
+    // Display the result
+    printf("The product of %d and %d is: %d\n", num1, num2, result);
+
+    return 0;
+}
